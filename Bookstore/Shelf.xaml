@@ -9,6 +9,15 @@
       Title="Shelf">
 
     <Grid>
-        
+        <Label x:Name="Book1" Content="Book1" BorderBrush="Azure" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Foreground="#FFD39393" Background="#FFEE9898" />
+        <Label x:Name="Book2" Content="Book2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="34,0,0,0" Foreground="#FFD39393" Background="#FFC98282"/>
+        <Label x:Name="Book3" Content="Book3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="68,0,0,0" Foreground="#FFD39393" Background="#FFD89090"/>
+        <Label x:Name="Book4" Content="Book4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="102,0,0,0" Foreground="#FFD39393" Background="#FFCF7F7F"/>
+        <Label x:Name="Book5" Content="Book5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="136,0,0,0" Foreground="#FFD39393" Background="#FFB26464"/>
+        <Label x:Name="Book6" Content="Book6" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="170,0,0,0" Foreground="#FFD39393" Background="#FFB94D4D"/>
+        <Label x:Name="Book7" Content="Book7" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="204,0,0,0" Foreground="#FFD39393" Background="#FFD44646"/>
+        <Label x:Name="Book8" Content="Book8" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="238,0,0,0" Foreground="#FFD39393" Background="#FF9E2A2A"/>
+        <Button x:Name="button" Content="back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Margin="272,231,0,0" Click="button_Click" Height="19" BorderThickness="0" Background="#FF912727" FontWeight="Bold"/>
+
     </Grid>
 </Page>

@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Bookstore
 {
     /// <summary>
-    /// Interaction logic for EntireBookstore.xaml
+    /// Interaction logic for AllData.xaml
     /// </summary>
-    public partial class EntireBookstore : Page
+    public partial class AllData : Window
     {
-        public EntireBookstore()
+        public AllData()
         {
             InitializeComponent();
         }

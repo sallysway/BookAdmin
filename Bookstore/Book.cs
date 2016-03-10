@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Bookstore
 {
-    class Book
+    public class Book
     {
         public int Index { get; set; }
         public string Title { get; set; }
@@ -16,35 +14,16 @@ namespace Bookstore
         public string Genre { get; set; }
         public int Year { get; set; }
 
-        List<Book> AllBooks = new List<Book>();
 
-        public void AddBook()
-        {
-            Console.WriteLine("Please insert details of the book");
-            Console.WriteLine("Title: ");
+        //public List<Book> AllBooks = new List<Book>();
 
-            Book thisBook = new Book();
-        }
-
-        public void SearchBook()
-        {
-            Console.WriteLine("Give me the title please\n");
-            var searchedtitle = Console.ReadLine().ToString();
-            foreach(var book in AllBooks)
-            {
-                if (book.Title == searchedtitle)
-                {
-                    Console.WriteLine("yeap, found it!\n");
-                    book.ShowBook();
-                } 
-            }
-        }
-
+        
+        
         private void ShowBook()
         {
-            
+
         }
     }
 
-   
 }
+

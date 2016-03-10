@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Administration
 {
-    class Book
+    public class Book
     {
         public int Index { get; set; }
         public string Title { get; set; }
@@ -16,7 +14,8 @@ namespace Administration
         public string Genre { get; set; }
         public int Year { get; set; }
 
-        List<Book> AllBooks = new List<Book>();
+        
+        public List<Book> AllBooks = new List<Book>();
 
         public void AddBook()
         {
@@ -42,7 +41,9 @@ namespace Administration
 
         private void ShowBook()
         {
-
+            
+            
+           
         }
     }
 

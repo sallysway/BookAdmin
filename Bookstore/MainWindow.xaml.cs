@@ -22,7 +22,28 @@ namespace Bookstore
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+
+        }
+
+       
+        private void SeeShelf_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow shelfWin = new MainWindow();
+            Page shelf = new Shelf();
+            shelfWin.Content = shelf;
+            this.Close();
+            shelfWin.Show();
+            
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow addWin = new MainWindow();
+            AddBook add = new AddBook();
+            addWin.Content = add;
+            addWin.Show();
+
         }
     }
 }
