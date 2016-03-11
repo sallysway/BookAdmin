@@ -9,15 +9,256 @@
       Title="Shelf">
 
     <Grid>
-        <Label x:Name="Book1" Content="Book1" BorderBrush="Azure" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Foreground="#FFD39393" Background="#FFEE9898" />
-        <Label x:Name="Book2" Content="Book2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="34,0,0,0" Foreground="#FFD39393" Background="#FFC98282"/>
-        <Label x:Name="Book3" Content="Book3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="68,0,0,0" Foreground="#FFD39393" Background="#FFD89090"/>
-        <Label x:Name="Book4" Content="Book4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="102,0,0,0" Foreground="#FFD39393" Background="#FFCF7F7F"/>
-        <Label x:Name="Book5" Content="Book5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="136,0,0,0" Foreground="#FFD39393" Background="#FFB26464"/>
-        <Label x:Name="Book6" Content="Book6" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="170,0,0,0" Foreground="#FFD39393" Background="#FFB94D4D"/>
-        <Label x:Name="Book7" Content="Book7" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="204,0,0,0" Foreground="#FFD39393" Background="#FFD44646"/>
-        <Label x:Name="Book8" Content="Book8" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="238,0,0,0" Foreground="#FFD39393" Background="#FF9E2A2A"/>
-        <Button x:Name="button" Content="back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Margin="272,231,0,0" Click="button_Click" Height="19" BorderThickness="0" Background="#FF912727" FontWeight="Bold"/>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book1" Content="" BorderBrush="#FF0A0C0C" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Foreground="#FFD39393" Background="#FFEEB2B2" BorderThickness="1,0" />
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="34,0,0,0" Foreground="#FFD39393" Background="#FFEE9B9B" BorderThickness="1,0"/>
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="68,0,0,0" Foreground="#FFD39393" Background="#FFE28C8C" BorderThickness="1,0"/>
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="102,0,0,0" Foreground="#FFD39393" Background="#FFEA8181" BorderThickness="1,0"/>
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="136,0,0,0" Foreground="#FFD39393" Background="#FFEE6E6E" BorderThickness="1,0"/>
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book6" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="170,0,0,0" Foreground="#FFD39393" Background="#FFD65050" BorderThickness="1,0"/>
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book7" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="204,0,0,0" Foreground="#FFD39393" Background="#FFC74646" BorderThickness="1,0"/>
+        </Border>
+        <Border BorderBrush="Transparent" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
+            <Label x:Name="Book8" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Width="34" Margin="238,0,0,0" Foreground="#FFD39393" Background="#FF9E2A2A" BorderThickness="1,0"/>
+        </Border>
+        <Button x:Name="button" Content="back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Margin="272,231,0,0" Click="button_Click" Height="19" BorderThickness="0" Background="#FF912727" FontWeight="Bold" Foreground="#FFFBF5F5"/>
+        <TextBox x:Name="textBox"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Jane Eyre" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.5,0.5" Margin="-13,242,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="White">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Pride and Prejudice" VerticalAlignment="Top" Width="119" RenderTransformOrigin="0.5,0.5" Margin="-10,215,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Wuthering heights" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.5,0.5" Margin="31,215,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Woman in white" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.5,0.5" Margin="69,219,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Little Dorrit" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.5,0.5" Margin="115,231,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="North and South" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.5,0.5" Margin="133,217,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy5" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Sense and sensibility" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.5,0.5" Margin="161,208,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Don Quixote" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.5,0.5" Margin="214,229,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FFFFFFFD">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Image x:Name="symbol"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\bat.png" Margin="5,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\bear.png" Margin="39,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy1"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\dove.png" Margin="73,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy2"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\dog.png" Margin="107,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy3"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\dove.png" Margin="141,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy4"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\horse.png" Margin="175,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy5"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\bat.png" Margin="209,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="symbol_Copy6"  HorizontalAlignment="Left" Height="29"  VerticalAlignment="Top" Width="29" Source="C:\Users\Prscar\Documents\Visual Studio 2015\Projects\Bookstore\Bookstore\Resources\monkey.png" Margin="243,10,0,0">
+            <Image.OpacityMask>
+                <RadialGradientBrush  >
+                    <GradientStop Color="Black" Offset="0.54"/>
+                    <GradientStop Color="Transparent" Offset="0.95"/>
+                </RadialGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Charlotte Bronte" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="-42,148,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Jane Austen" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="-9,93,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Emily Bronte" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="26,93,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Wilkie Collins" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="61,106,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333" TextChanged="textBox1_Copy2_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy3" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Charles Dickens" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="94,131,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy4" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Elizabeth Gaskell" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="127,111,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy5" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Jane Austen" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="164,85,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox1_Copy6" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Cervantes" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Margin="195,121,-15,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Foreground="#FF3A3333">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.868"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
 
     </Grid>
 </Page>
