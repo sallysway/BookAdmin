@@ -33,5 +33,16 @@ namespace Bookstore.Properties {
                 return ((string)(this["BookdbConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Bookdb.mdf;In" +
+            "tegrated Security=True;Connect Timeout=30")]
+        public string BookdbConnectionString1 {
+            get {
+                return ((string)(this["BookdbConnectionString1"]));
+            }
+        }
     }
 }

@@ -103,6 +103,16 @@ namespace Bookstore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap donQuixote {
+            get {
+                object obj = ResourceManager.GetObject("donQuixote", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dove {
             get {
                 object obj = ResourceManager.GetObject("dove", resourceCulture);
@@ -123,9 +133,29 @@ namespace Bookstore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap JaneEyre {
+            get {
+                object obj = ResourceManager.GetObject("JaneEyre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lion {
             get {
                 object obj = ResourceManager.GetObject("lion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LittleDorrit {
+            get {
+                object obj = ResourceManager.GetObject("LittleDorrit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +173,49 @@ namespace Bookstore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap s1 {
+        internal static System.Drawing.Bitmap northSouth {
             get {
-                object obj = ResourceManager.GetObject("s1", resourceCulture);
+                object obj = ResourceManager.GetObject("northSouth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap P_P {
+            get {
+                object obj = ResourceManager.GetObject("P_P", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap senseSensibility {
+            get {
+                object obj = ResourceManager.GetObject("senseSensibility", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap womanWhite {
+            get {
+                object obj = ResourceManager.GetObject("womanWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wuthering {
+            get {
+                object obj = ResourceManager.GetObject("wuthering", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

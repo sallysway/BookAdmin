@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Drawing;
 
 namespace Bookstore
 {
@@ -13,16 +13,9 @@ namespace Bookstore
         public string Language { get; set; }
         public string Genre { get; set; }
         public int Year { get; set; }
+        public Image Image { get; set; }
 
-
-        //public List<Book> AllBooks = new List<Book>();
-
-        
-        
-        private void ShowBook()
-        {
-
-        }
+       
     }
 
 }

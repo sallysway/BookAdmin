@@ -142,7 +142,28 @@
   <data name="monkey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\monkey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="s1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\s1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="P_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JaneEyre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JaneEyre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donQuixote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donQuixote.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LittleDorrit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LittleDorrit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="northSouth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\northSouth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senseSensibility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\senseSensibility.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="womanWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\womanWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wuthering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wuthering.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

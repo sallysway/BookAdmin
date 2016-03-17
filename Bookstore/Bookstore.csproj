@@ -86,7 +86,6 @@
     <Compile Include="AddBook.xaml.cs">
       <DependentUpon>AddBook.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AllBooks.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -95,6 +94,9 @@
     </Compile>
     <Compile Include="Shelf.xaml.cs">
       <DependentUpon>Shelf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShowBook.xaml.cs">
+      <DependentUpon>ShowBook.xaml</DependentUpon>
     </Compile>
     <Page Include="AddBook.xaml">
       <SubType>Designer</SubType>
@@ -116,6 +118,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ShowBook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -129,6 +135,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -157,16 +164,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\s1.png" />
+    <Resource Include="Resources\bat.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bear.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bird.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cat.png" />
@@ -185,6 +186,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JaneEyre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\senseSensibility.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\womanWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donQuixote.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LittleDorrit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\northSouth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wuthering.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

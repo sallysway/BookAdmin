@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Bookstore
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -37,12 +35,23 @@ namespace Bookstore
             
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void Add_Click(object sender, RoutedEventArgs e)
         {
             MainWindow addWin = new MainWindow();
             AddBook add = new AddBook();
             addWin.Content = add;
             addWin.Show();
+
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow addWin = new MainWindow();
+            Shelf theShelf = new Shelf();
+            addWin.Content = theShelf;
+            addWin.Show();
+            addWin.SizeToContent = SizeToContent.Width;
+            addWin.SizeToContent = SizeToContent.Height;
 
         }
     }
